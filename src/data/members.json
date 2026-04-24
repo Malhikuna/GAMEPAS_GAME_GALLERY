@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "name": "RADEN INDRA",
+    "title": "Game Artis / Programmer",
+    "division": "Lead",
+    "role": "Pengurus",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/pixel-art/svg?hairColor=28150a&skinColor=ffdbac,cb9e6e&seed=Jocelyn"
+  },
+  {
+    "id": 2,
+    "name": "ISMAIL ABDUL",
+    "title": "Game Programmer",
+    "division": "Treasurer",
+    "role": "Pengurus",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC2"
+  },
+  {
+    "id": 3,
+    "name": "HIKMAL MAULANA",
+    "title": "Game Programmer",
+    "division": "Community",
+    "role": "Pengurus",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC3"
+  },
+  {
+    "id": 4,
+    "name": "TUBAGUS MUHAMMAD",
+    "title": "Game Programmer",
+    "division": "Community",
+    "role": "Pengurus",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC4"
+  },
+  {
+    "id": 5,
+    "name": "HARITS FADHIL",
+    "title": "Game Designer",
+    "division": "Secretary",
+    "role": "Pengurus",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC5"
+  },
+  {
+    "id": 6,
+    "name": "FIRDA FARIDATUL",
+    "title": "Game Artist",
+    "division": "Matriculation",
+    "role": "Pengurus",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC6"
+  },
+  {
+    "id": 7,
+    "name": "DIAN ASTRI",
+    "title": "Game Artist",
+    "division": "Matriculation",
+    "role": "Pengurus",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC7"
+  },
+  {
+    "id": 8,
+    "name": "HILMAN ZALDI",
+    "title": "Game Designer",
+    "division": "Public Relations",
+    "role": "Pengurus",
+    "skills": ["LMMS", "BGM"],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC8"
+  },
+  {
+    "id": 9,
+    "name": "DIKI FATURRAHMAN",
+    "title": "Game Artist",
+    "division": "Media & Creative",
+    "role": "Pengurus",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC9"
+  },
+  {
+    "id": 10,
+    "name": "VALDRIC",
+    "title": "Game Designer",
+    "division": "Media & Creative",
+    "role": "Pengurus",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+  },
+  {
+    "id": 11,
+    "name": "Fabregas",
+    "title": "Game Artist / Programmer",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+  },
+  {
+    "id": 12,
+    "name": "Arya Raihan Hanif",
+    "title": "Game Programmer",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+  },
+  {
+    "id": 13,
+    "name": "Muhammad Aidil Fikri",
+    "title": "Game Artist",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+  },
+  {
+    "id": 14,
+    "name": "Dion Marshall Avalon Adhiseputro",
+    "title": "Game Programmer",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+  },
+  {
+    "id": 15,
+    "name": "Habibi Saefudin",
+    "title": "Game Writer",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+  }
+]

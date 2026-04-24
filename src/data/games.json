@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Slider",
+    "developer": "Meliora Operation",
+    "genre": "2D Action",
+    "engine": "Unity",
+    "thumbnail": "/slider.png",
+    "link": "https://itch.io/"
+  },
+  {
+    "id": 2,
+    "title": "Game ke-dua",
+    "developer": "Gamepas Study Club",
+    "genre": "Puzzle Platformer",
+    "engine": "Godot",
+    "thumbnail": "/slider.png",
+    "link": "https://itch.io/"
+  }
+]
