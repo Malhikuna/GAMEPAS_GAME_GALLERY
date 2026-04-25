@@ -3,18 +3,22 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import gamesData from "../../data/games.json";
+import Link from "next/link";
 
 export default function InventoryPage() {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeGame = gamesData[activeIndex];
-
   const TOTAL_SLOTS = 15;
   const inventorySlots = Array.from({ length: TOTAL_SLOTS }).map((_, i) => gamesData[i] || null);
 
   return (
-    <div className="relative w-full h-full flex flex-col md:flex-row gap-4 md:gap-8 z-10 overflow-hidden">
-      {/* PANEL KIRI: ITEM STATUS */}
-      <div className="w-full md:w-5/12 bg-[#005692]/90 border-[6px] border-double border-[#ffbd3f] rounded-sm p-4 md:p-5 shadow-[8px_8px_0px_rgba(0,0,0,0.5)] flex flex-col h-full">
+    // PERBAIKAN: Hanya mengubah p-2 menjadi p-6 md:p-8 agar tidak mepet tepi monitor CRT
+    <div className="relative w-full h-full flex flex-col md:flex-row gap-4 md:gap-8 z-10 overflow-hidden rounded-4xl p-6 md:p-2">
+      {/* TAMBAHAN BACKGROUND: Ambient Glow Biru agar tidak hitam pekat */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-[#005692]/40 via-transparent to-transparent pointer-events-none" />
+
+      {/* PANEL KIRI: ITEM STATUS (100% UI ASLIMU) */}
+      <div className="w-full md:w-5/12 bg-[#005692]/90 border-[6px] border-double border-[#ffbd3f] rounded-l-4xl rounded-r-md p-4 md:p-5 shadow-[8px_8px_0px_rgba(0,0,0,0.5)] flex flex-col h-full relative z-10">
         <div className="flex justify-between items-start mb-3 md:mb-4 border-b-2 border-[#ffbd3f]/30 pb-2 md:pb-3 flex-shrink-0">
           <h2 className="text-xl md:text-2xl font-bold text-[#ffbd3f] uppercase tracking-wider drop-shadow-[2px_2px_0px_rgba(0,0,0,0.8)]">Item Stats</h2>
         </div>
@@ -37,10 +41,12 @@ export default function InventoryPage() {
                   <span className="text-[#ffbd3f]">Genre:</span>
                   <span className="text-white text-right font-semibold">{activeGame.genre}</span>
                 </div>
+
                 <div className="flex justify-between">
                   <span className="text-[#ffbd3f]">Dev:</span>
                   <span className="text-white text-right font-semibold">{activeGame.developer}</span>
                 </div>
+
                 <div className="flex justify-between">
                   <span className="text-[#ffbd3f]">Engine:</span>
                   <span className="text-white text-right font-semibold">{activeGame.engine}</span>
@@ -48,20 +54,18 @@ export default function InventoryPage() {
               </div>
             </div>
 
-            <a
-              href={activeGame.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-3 md:mt-4 block w-full text-center bg-[#ffbd3f] text-[#030b14] py-2 md:py-3 font-black uppercase tracking-[0.2em] border-b-[4px] border-r-[4px] border-[#b8860b] hover:bg-white hover:border-slate-300 active:border-t-[4px] active:border-l-[4px] active:border-b-0 active:border-r-0 active:mt-[16px] md:active:mt-[20px] transition-all flex-shrink-0 text-sm md:text-base"
+            <Link
+              href={`/inventory/${activeGame.id}`}
+              className="mt-3 md:mt-4 block w-full text-center bg-[#ffbd3f] text-[#030b14] py-2 md:py-3 font-black uppercase tracking-[0.2em] border-b-[4px] border-r-[4px] border-[#b8860b] hover:bg-white hover:border-slate-300 active:border-t-[4px] active:border-l-[4px] active:border-b-0 active:border-r-0 active:mt-[16px] md:active:mt-[20px] transition-all flex-shrink-0 text-sm md:text-base cursor-pointer"
             >
-              [ Equip / Play ]
-            </a>
+              [ Equip ]
+            </Link>
           </motion.div>
         </AnimatePresence>
       </div>
 
-      {/* PANEL KANAN: INVENTORY GRID */}
-      <div className="w-full md:w-7/12 bg-[#005692]/90 border-[6px] border-double border-[#ffbd3f] rounded-sm p-4 md:p-5 shadow-[8px_8px_0px_rgba(0,0,0,0.5)] flex flex-col h-full">
+      {/* PANEL KANAN: INVENTORY GRID (100% UI ASLIMU) */}
+      <div className="w-full md:w-7/12 bg-[#005692]/90 border-[6px] border-double border-[#ffbd3f] rounded-r-4xl rounded-l-md p-4 md:p-5 shadow-[8px_8px_0px_rgba(0,0,0,0.5)] flex flex-col h-full relative z-10">
         <div className="flex justify-between items-end mb-4 border-b-2 border-[#ffbd3f]/30 pb-2 md:pb-3 flex-shrink-0">
           <h2 className="text-xl md:text-2xl font-bold text-[#ffbd3f] uppercase tracking-wider drop-shadow-[2px_2px_0px_rgba(0,0,0,0.8)]">Inventory</h2>
           <span className="text-xs md:text-sm font-semibold text-slate-300 uppercase">

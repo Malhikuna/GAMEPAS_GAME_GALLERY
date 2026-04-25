@@ -1,8 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation"; // Tambahkan useRouter untuk navigasi
 
 export default function ArcadeCabinet({ children }: { children: React.ReactNode }) {
+  const router = useRouter(); // Inisialisasi router
+
   return (
     <main className="relative min-h-screen bg-[#0a0c10] overflow-hidden flex flex-col items-center justify-between py-6 md:py-10 px-4 md:px-8 font-mono selection:bg-[#ffbd3f] selection:text-[#005692]">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,var(--tw-gradient-stops))] from-[#005692]/10 via-[#0a0c10] to-[#0a0c10] pointer-events-none" />
@@ -45,16 +48,45 @@ export default function ArcadeCabinet({ children }: { children: React.ReactNode 
       </div>
 
       {/* ELEMEN FISIK KABINET: Panel Kontrol Bawah */}
-      <div className="w-full max-w-4xl flex items-center justify-between mt-6 md:mt-8 px-10 md:px-20 opacity-60 pointer-events-none z-0">
-        <div className="relative w-16 h-16 md:w-24 md:h-24 bg-[#1a1a1a] rounded-full border-8 md:border-12 border-[#0a0a0a] shadow-inner flex items-center justify-center">
+      {/* PERBAIKAN: Menghapus pointer-events-none agar tombol bisa di-klik */}
+      <div className="relative w-full max-w-4xl flex items-center justify-between mt-6 md:mt-8 px-10 md:px-20 opacity-80 z-30">
+        {/* Joystick Kiri (Tetap pajangan) */}
+        <div className="relative w-16 h-16 md:w-24 md:h-24 bg-[#1a1a1a] rounded-full border-8 md:border-12 border-[#0a0a0a] shadow-inner flex items-center justify-center pointer-events-none">
           <div className="w-8 h-8 md:w-12 md:h-12 rounded-full bg-red-600 shadow-[inset_-3px_-3px_10px_rgba(0,0,0,0.5)] border-2 border-red-800" />
           <div className="absolute w-2 md:w-3 h-10 md:h-14 bg-zinc-600 -bottom-5 md:-bottom-7 -z-10" />
         </div>
 
+        {/* Tombol Interaktif Kanan */}
         <div className="flex gap-4 md:gap-6 rotate-[-15deg]">
-          <div className="w-10 h-10 md:w-16 md:h-16 rounded-full bg-blue-600 border-4 md:border-[6px] border-[#0a0a0a] shadow-[0_5px_0_#0a0a0a,inset_0_2px_5px_rgba(255,255,255,0.4)] active:translate-y-1 active:shadow-none" />
-          <div className="w-10 h-10 md:w-16 md:h-16 rounded-full bg-emerald-500 border-4 md:border-[6px] border-[#0a0a0a] shadow-[0_5px_0_#0a0a0a,inset_0_2px_5px_rgba(255,255,255,0.4)] mt-4 md:mt-6 active:translate-y-1 active:shadow-none" />
-          <div className="w-10 h-10 md:w-16 md:h-16 rounded-full bg-yellow-500 border-4 md:border-[6px] border-[#0a0a0a] shadow-[0_5px_0_#0a0a0a,inset_0_2px_5px_rgba(255,255,255,0.4)] mt-8 md:mt-12 active:translate-y-1 active:shadow-none" />
+          {/* Tombol Biru: BACK */}
+          <div className="flex flex-col items-center gap-1 md:gap-2">
+            <span className="text-[#005692] text-[10px] md:text-xs font-bold tracking-widest uppercase opacity-80 select-none">Back</span>
+            <button
+              onClick={() => router.back()}
+              title="Go Back"
+              className="w-10 h-10 md:w-16 md:h-16 rounded-full bg-blue-600 border-4 md:border-[6px] border-[#0a0a0a] shadow-[0_5px_0_#0a0a0a,inset_0_2px_5px_rgba(255,255,255,0.4)] active:translate-y-1 active:shadow-none hover:bg-blue-500 transition-colors cursor-pointer"
+            />
+          </div>
+
+          {/* Tombol Hijau: MENU */}
+          <div className="flex flex-col items-center gap-1 md:gap-2 mt-4 md:mt-6">
+            <span className="text-emerald-700 text-[10px] md:text-xs font-bold tracking-widest uppercase opacity-80 select-none">Menu</span>
+            <button
+              onClick={() => router.push("/menu")}
+              title="Main Menu"
+              className="w-10 h-10 md:w-16 md:h-16 rounded-full bg-emerald-500 border-4 md:border-[6px] border-[#0a0a0a] shadow-[0_5px_0_#0a0a0a,inset_0_2px_5px_rgba(255,255,255,0.4)] active:translate-y-1 active:shadow-none hover:bg-emerald-400 transition-colors cursor-pointer"
+            />
+          </div>
+
+          {/* Tombol Kuning: HOME */}
+          <div className="flex flex-col items-center gap-1 md:gap-2 mt-8 md:mt-12">
+            <span className="text-yellow-700 text-[10px] md:text-xs font-bold tracking-widest uppercase opacity-80 select-none">Home</span>
+            <button
+              onClick={() => router.push("/")}
+              title="Insert Coin (Home)"
+              className="w-10 h-10 md:w-16 md:h-16 rounded-full bg-yellow-500 border-4 md:border-[6px] border-[#0a0a0a] shadow-[0_5px_0_#0a0a0a,inset_0_2px_5px_rgba(255,255,255,0.4)] active:translate-y-1 active:shadow-none hover:bg-yellow-400 transition-colors cursor-pointer"
+            />
+          </div>
         </div>
       </div>
     </main>

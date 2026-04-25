@@ -1,20 +1,72 @@
 [
   {
-    "id": 1,
+    "id": 3,
     "title": "Slider",
     "developer": "Meliora Operation",
-    "genre": "2D Action",
+    "genre": "Shooter",
     "engine": "Unity",
     "thumbnail": "/slider.png",
-    "link": "https://itch.io/"
+    "link": "https://ritssss.itch.io/slider",
+    "video": "https://www.youtube.com/embed/id_video_kamu",
+    "members": [
+      { "name": "Raden", "role": "Technical Artist" },
+      { "name": "Hikmal", "role": "Game Programmer" },
+      { "name": "Ismail", "role": "Game Programmer" },
+      { "name": "Wildan", "role": "Game Programmer" },
+      { "name": "Harits", "role": "Game Designer" },
+      { "name": "Hilman", "role": "Game Artist" },
+      { "name": "Ojan", "role": "Game Artist" },
+      { "name": "Sheila", "role": "Game Artist" },
+      { "name": "Raisa", "role": "Game Artist" },
+      { "name": "Farhan", "role": "Game Artist" },
+      { "name": "Aidil", "role": "Game Artist" },
+      { "name": "Jasmine", "role": "Game Artist" },
+      { "name": "Dion", "role": "Game Artist" },
+      { "name": "Dian", "role": "Game Artist" },
+      { "name": "Firda", "role": "Game Artist" },
+      { "name": "Alex", "role": "Game Artist" },
+      { "name": "Diki", "role": "Game Artist" }
+    ],
+    "description": "SLIDER is an arcade space shooter with rogue-lite element, you as the player will play as a spaceship named phoenix-67, your objective is to survive every wave and get power up by clearing the given objective"
   },
   {
     "id": 2,
-    "title": "Game ke-dua",
-    "developer": "Gamepas Study Club",
-    "genre": "Puzzle Platformer",
-    "engine": "Godot",
-    "thumbnail": "/slider.png",
-    "link": "https://itch.io/"
+    "title": "The Spider Adventure",
+    "developer": "The Cado",
+    "genre": "Puzzle",
+    "engine": "Unity",
+    "thumbnail": "/spider.png",
+    "link": "https://ritssss.itch.io/the-spider-adventure",
+    "video": "https://www.youtube.com/watch?v=jZbVG779nX0",
+    "members": [
+      { "name": "Raden", "role": "Technical Artist" },
+      { "name": "Ismail", "role": "Game Programmer" },
+      { "name": "Daffa", "role": "Game Programmer" },
+      { "name": "Harits", "role": "Game Designer" },
+      { "name": "Hilman", "role": "Game Artist" },
+      { "name": "Aidil", "role": "Game Artist" },
+      { "name": "Firda", "role": "Game Artist" },
+      { "name": "Diki", "role": "Game Artist" }
+    ],
+    "description": "The Spider Adventure is a 2d adventure puzzle game, where you playing as a spider that looking for a new home. As spider, you can use web shooting ability like making bridge and pull an object, use that ability to help your journey throughout the game."
+  },
+  {
+    "id": 1,
+    "title": "Aphrodine or Serenity",
+    "developer": "The Lone Wolf",
+    "genre": "Visual Novel",
+    "engine": "Unity",
+    "thumbnail": "/novejam.png",
+    "link": "https://malhikuna.itch.io/aphrodine-or-serenity",
+    "video": "https://www.youtube.com/embed/id_video_kamu",
+    "members": [
+      { "name": "Hikmal", "role": "Game Programmer" },
+      { "name": "Ervina", "role": "Game Designer" },
+      { "name": "Jasmine", "role": "Game Artist" },
+      { "name": "Nayla", "role": "Game Artist" },
+      { "name": "Habibi", "role": "Game Writer" },
+      { "name": "Arya", "role": "Sound Designer" }
+    ],
+    "description": "Happiness is the peak of ecstasy that a human can feel, especially when that happiness is born of love. Amara is a loving woman, full of compassion and affection. The man fortunate enough to receive all of it is named Kael, a considerate, caring man who cherishes Amara, the perfect partner for her. But ever since Amara’s mother, Amoria, was struck by Alzheimer’s disease, slowly being consumed until she forgot her own daughter and eventually succumbed to death, Amara’s mind has been thrown into chaos, like a storm battering the harbor of her thoughts. Will Amara be able to make the right decisions after her mother’s death? Or will she choose death itself as her new companion?"
   }
 ]

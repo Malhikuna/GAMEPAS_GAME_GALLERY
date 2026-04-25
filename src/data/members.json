@@ -7,7 +7,7 @@
     "role": "Pengurus",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/9.x/pixel-art/svg?hairColor=28150a&skinColor=ffdbac,cb9e6e&seed=Jocelyn"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?baseColor=f9c9b6&earringsProbability=0&eyeShadowColor=e0ddff,ffeba4,ffedef,ffffff,d2eff3&eyebrows=down,eyelashesUp,up,eyelashesDown&eyes=smiling&facialHair[]&facialHairColor=transparent&facialHairProbability=0&hair=fonze&hairColor=000000&mouth=nervous&mouthColor=transparent,000000&shirtColor=77311d&seed=Maria"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "role": "Pengurus",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC2"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Ismail"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "role": "Pengurus",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC3"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?baseColor=f9c9b6&earringsProbability=0&eyeShadowColor=e0ddff,ffeba4,ffedef,ffffff,d2eff3&eyebrows=down,eyelashesUp,up,eyelashesDown&eyes=smiling&facialHair[]&facialHairColor=transparent&facialHairProbability=0&hair=dannyPhantom&hairColor=000000&mouth=nervous&mouthColor=transparent,000000&shirtColor=9287ff&seed=Riley"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "role": "Pengurus",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC4"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Tubagus"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "role": "Pengurus",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC5"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Harits"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "role": "Pengurus",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC6"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Firda"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "role": "Pengurus",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC7"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Dian"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "role": "Pengurus",
     "skills": ["LMMS", "BGM"],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC8"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Hilman"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "role": "Pengurus",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC9"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Diki"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "role": "Pengurus",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Valdric"
   },
   {
     "id": 11,
@@ -106,7 +106,7 @@
     "role": "Member",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Fabregas"
   },
   {
     "id": 12,
@@ -115,7 +115,7 @@
     "role": "Member",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Arya"
   },
   {
     "id": 13,
@@ -124,16 +124,16 @@
     "role": "Member",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Aidil"
   },
   {
     "id": 14,
     "name": "Dion Marshall Avalon Adhiseputro",
-    "title": "Game Programmer",
+    "title": "Game Artist",
     "role": "Member",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Dion"
   },
   {
     "id": 15,
@@ -142,6 +142,96 @@
     "role": "Member",
     "skills": [""],
     "level": 100,
-    "avatar": "https://api.dicebear.com/7.x/pixel-art/svg?seed=NPC10"
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Habibi"
+  },
+  {
+    "id": 16,
+    "name": "Ervina Rahma Fadilla",
+    "title": "Game Designer",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Amaya"
+  },
+  {
+    "id": 17,
+    "name": "Jasmine Aghnia Maharani",
+    "title": "Game Artist",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Jasmine"
+  },
+  {
+    "id": 18,
+    "name": "Yusrina Tigin Widaranti",
+    "title": "Game Artist",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Yusrina"
+  },
+  {
+    "id": 19,
+    "name": "Nayla Amelia Putri",
+    "title": "Game Artist",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Nayla"
+  },
+  {
+    "id": 20,
+    "name": "Mochammad Hari Fitrian",
+    "title": "Sound Designer",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Hari"
+  },
+  {
+    "id": 21,
+    "name": "Dzaqi Natsirul Haq",
+    "title": "Game Artist",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Dzaqi"
+  },
+  {
+    "id": 22,
+    "name": "Sheilla S. Pratama",
+    "title": "Game Artist",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Sheilla"
+  },
+  {
+    "id": 23,
+    "name": "Rizky Fauzan Rusoni",
+    "title": "Game Artist",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Rizky"
+  },
+  {
+    "id": 24,
+    "name": "Raisa Azzahra Indrayena",
+    "title": "Game Artist",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?hairColor=000000&seed=Raisa"
+  },
+  {
+    "id": 25,
+    "name": "Farhan Friatna",
+    "title": "Game Artist",
+    "role": "Member",
+    "skills": [""],
+    "level": 100,
+    "avatar": "https://api.dicebear.com/9.x/micah/svg?seed=Farhan"
   }
 ]
