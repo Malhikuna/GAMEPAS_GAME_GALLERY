@@ -92,7 +92,7 @@ export default function GameDetailPage() {
             <h1 className="text-4xl md:text-5xl font-black text-white uppercase drop-shadow-[2px_2px_0px_rgba(0,86,146,1)] leading-none mb-2">{game.title}</h1>
             <div className="flex flex-wrap gap-2">
               <span className="bg-[#005692] text-white px-2 py-1 text-xs uppercase font-bold tracking-widest">{game.genre}</span>
-              <span className="bg-[#12161c] text-[#ffbd3f] px-2 py-1 text-xs uppercase font-bold tracking-widest border border-[#ffbd3f]/30">LVL. {game.id}</span>
+              <span className="bg-[#12161c] text-[#ffbd3f] px-2 py-1 text-xs uppercase font-bold tracking-widest border border-[#ffbd3f]/30">LVL. {game.level}</span>
             </div>
           </div>
 

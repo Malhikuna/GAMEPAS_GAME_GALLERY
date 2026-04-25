@@ -1,6 +1,7 @@
 [
   {
-    "id": 3,
+    "id": 1,
+    "level": 3,
     "title": "Slider",
     "developer": "Meliora Operation",
     "genre": "Shooter",
@@ -31,6 +32,7 @@
   },
   {
     "id": 2,
+    "level": 2,
     "title": "The Spider Adventure",
     "developer": "The Cado",
     "genre": "Puzzle",
@@ -51,7 +53,8 @@
     "description": "The Spider Adventure is a 2d adventure puzzle game, where you playing as a spider that looking for a new home. As spider, you can use web shooting ability like making bridge and pull an object, use that ability to help your journey throughout the game."
   },
   {
-    "id": 1,
+    "id": 3,
+    "level": 1,
     "title": "Aphrodine or Serenity",
     "developer": "The Lone Wolf",
     "genre": "Visual Novel",
@@ -66,6 +69,29 @@
       { "name": "Nayla", "role": "Game Artist" },
       { "name": "Habibi", "role": "Game Writer" },
       { "name": "Arya", "role": "Sound Designer" }
+    ],
+    "description": "Happiness is the peak of ecstasy that a human can feel, especially when that happiness is born of love. Amara is a loving woman, full of compassion and affection. The man fortunate enough to receive all of it is named Kael, a considerate, caring man who cherishes Amara, the perfect partner for her. But ever since Amara’s mother, Amoria, was struck by Alzheimer’s disease, slowly being consumed until she forgot her own daughter and eventually succumbed to death, Amara’s mind has been thrown into chaos, like a storm battering the harbor of her thoughts. Will Amara be able to make the right decisions after her mother’s death? Or will she choose death itself as her new companion?"
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "title": "Snowfall Odyssey",
+    "developer": "Rookies",
+    "genre": "2D",
+    "engine": "Unity",
+    "thumbnail": "/snowfall_odyssey.png",
+    "link": "https://malhikuna.itch.io/aphrodine-or-serenity",
+    "video": "https://www.youtube.com/embed/rJ7zbB5DEcM?si=11JeA3wzJlEJhAOH",
+    "members": [
+      { "name": "Raden", "role": "Game Programmer" },
+      { "name": "Hilman", "role": "Game Designer" },
+      { "name": "Ervina", "role": "Game Designer" },
+      { "name": "Hikmal", "role": "Game Artist" },
+      { "name": "Dion", "role": "Game Artist" },
+      { "name": "Jasmine", "role": "Game Artist" },
+      { "name": "Diki", "role": "Game Artist" },
+      { "name": "Ismail", "role": "Game Programmer" },
+      { "name": "Wildan", "role": "Game Programmer" }
     ],
     "description": "Happiness is the peak of ecstasy that a human can feel, especially when that happiness is born of love. Amara is a loving woman, full of compassion and affection. The man fortunate enough to receive all of it is named Kael, a considerate, caring man who cherishes Amara, the perfect partner for her. But ever since Amara’s mother, Amoria, was struck by Alzheimer’s disease, slowly being consumed until she forgot her own daughter and eventually succumbed to death, Amara’s mind has been thrown into chaos, like a storm battering the harbor of her thoughts. Will Amara be able to make the right decisions after her mother’s death? Or will she choose death itself as her new companion?"
   }

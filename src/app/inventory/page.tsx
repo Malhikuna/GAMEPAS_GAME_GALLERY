@@ -28,7 +28,7 @@ export default function InventoryPage() {
             <div className="w-full h-36 md:h-60 border-4 border-[#030b14] bg-black mb-3 md:mb-4 relative overflow-hidden shadow-inner group flex-shrink-0">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={activeGame.thumbnail} alt={activeGame.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-              <div className="absolute top-2 right-2 bg-black/80 px-2 py-1 text-[10px] md:text-xs text-white border border-white/20">LVL. {activeGame.id}</div>
+              <div className="absolute top-2 right-2 bg-black/80 px-2 py-1 text-[10px] md:text-xs text-white border border-white/20">LVL. {activeGame.level}</div>
             </div>
 
             <div className="space-y-2 md:space-y-3 flex-1 overflow-y-auto custom-scrollbar pr-1">
